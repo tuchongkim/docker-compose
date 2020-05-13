@@ -1,0 +1,11 @@
+version: '3'
+services:
+  web:
+    image: nginx:latest
+    ports:
+      - "8000:80"
+  homepage1:
+    image: rhinotck/myserver:latest
+    ports:
+      - "3000:3000"
+ 
